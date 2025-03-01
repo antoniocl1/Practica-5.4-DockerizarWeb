@@ -33,4 +33,23 @@ docker build -t antoniocl1/2048 .
 docker login -u antoniocl1 # Pegaremos el token generado en el paso anterior.
 ```
 
-## 5 - Publicar
+## 5 - Publicar a Docker Hub
+
+```bash
+docker run -d -p 80:80 antoniocl1/2048
+docker push antoniocl1/2048:latest
+```
+
+## 6 - Asignar una etiqueta a la imagen
+Aunque no es obligatorio sería una buena idea etiquetar nuestras imagenes.
+```bash
+docker tag antoniocl1/2048 antoniocl1/2048:1.0
+docker push antoniocl1/2048:1.0
+```
+![](capturas/2048.png)
+
+## 7 - Publicar imagen en Docker Hub usando Github Actions
+Debemos tener sincronizado Github con Docker Hub para empezar, después debemos de crear 2 "Secrets" en nuestro repo para las Github Actions, (creo que con el nombre de cada secreto se entiende para lo que sirve cada uno de ellos), deben de quedar así:
+- DOCKERHUB_USERNAME= antoniocl1
+- DOCKERHUB_TOKEN= Mi token creado en el paso 3
+Esto lo hacemos dentro de nuestro repo, en el apartado de "Settings", vamos a "Secrets and variables" y específicamente a "Actions".
