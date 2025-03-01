@@ -53,3 +53,11 @@ Debemos tener sincronizado Github con Docker Hub para empezar, después debemos 
 - DOCKERHUB_USERNAME= antoniocl1
 - DOCKERHUB_TOKEN= Mi token creado en el paso 3
 Esto lo hacemos dentro de nuestro repo, en el apartado de "Settings", vamos a "Secrets and variables" y específicamente a "Actions".
+![](capturas/secrets.png)  
+
+## 8 - Creación del nuevo Workflow
+Debemos dirigirnos dentro de nuestro repo al apartado de "Actions"
+![](capturas/actions.png)
+Ahora tenemos que crear uno nuevo y cuando lleguemos a ese apartado le damos a "Setup a workflow yourself", o en español que lo hagas tú mismo :P.
+![](capturas/setupworkflow.png)
+Aquí debemos crear el archivo al que llamaremos "publish-to-docker-hub.yml" y le meteremos el contenido que encontramos en el repo del profesor.
