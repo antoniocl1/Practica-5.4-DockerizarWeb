@@ -63,4 +63,4 @@ Ahora tenemos que crear uno nuevo y cuando lleguemos a ese apartado le damos a "
 Aquí debemos crear el archivo al que llamaremos "publish-to-docker-hub.yml" y le meteremos el contenido que encontramos en el repo del profesor.
 
 ## 9 - Comprobar
-![](capturas/fin.png)
+![](capturas/fin2.png)
