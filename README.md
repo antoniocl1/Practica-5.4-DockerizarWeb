@@ -61,3 +61,6 @@ Debemos dirigirnos dentro de nuestro repo al apartado de "Actions"
 Ahora tenemos que crear uno nuevo y cuando lleguemos a ese apartado le damos a "Setup a workflow yourself", o en español que lo hagas tú mismo :P.
 ![](capturas/setupworkflow.png)
 Aquí debemos crear el archivo al que llamaremos "publish-to-docker-hub.yml" y le meteremos el contenido que encontramos en el repo del profesor.
+
+## 9 - Comprobar
+![](capturas/fin.png)
