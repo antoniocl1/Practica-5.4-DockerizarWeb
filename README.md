@@ -46,7 +46,7 @@ Aunque no es obligatorio sería una buena idea etiquetar nuestras imagenes.
 docker tag antoniocl1/2048 antoniocl1/2048:1.0
 docker push antoniocl1/2048:1.0
 ```
-![](capturas/2048.png)
+![](capturas/tags.png)
 
 ## 7 - Publicar imagen en Docker Hub usando Github Actions
 Debemos tener sincronizado Github con Docker Hub para empezar, después debemos de crear 2 "Secrets" en nuestro repo para las Github Actions, (creo que con el nombre de cada secreto se entiende para lo que sirve cada uno de ellos), deben de quedar así:
@@ -64,3 +64,6 @@ Aquí debemos crear el archivo al que llamaremos "publish-to-docker-hub.yml" y l
 
 ## 9 - Comprobar
 ![](capturas/fin2.png)
+![](capturas/build.png)
+![](capturas/2048.png)
+![](capturas/verificacionip.png)
