@@ -1,0 +1,5 @@
+services:
+  web:
+    image: antoniocl1/2048:latest
+    ports:
+      - "80:80"
