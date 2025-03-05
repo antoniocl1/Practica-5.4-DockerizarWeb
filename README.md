@@ -63,7 +63,7 @@ Ahora tenemos que crear uno nuevo y cuando lleguemos a ese apartado le damos a "
 Aquí debemos crear el archivo al que llamaremos "publish-to-docker-hub.yml" y le meteremos el contenido que encontramos en el repo del profesor.
 
 ## 9 - Comprobar
-![](capturas/docker-compose.png) **Salida de ejecución de docker-compose y comprobación con docker-images**
+![](capturas/docker-compose.png) **                             Salida de ejecución de docker-compose**
 ![](capturas/fin2.png)
 ![](capturas/build.png)
 ![](capturas/2048.png)
